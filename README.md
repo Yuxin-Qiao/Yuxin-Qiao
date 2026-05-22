@@ -4,44 +4,20 @@
 
 ### CodexBar
 
-I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), with a focus on AI coding-provider usage, quota, billing, subscription visibility, and menu-bar UX.
+I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), focusing on AI coding-provider usage, quota, billing, subscription visibility, and menu-bar UX.
 
-#### Merged PRs
+**Merged PRs**
+- [#970](https://github.com/steipete/CodexBar/pull/970) — MiniMax Token Plan quota support: fixed remaining/used mapping, added 5-hour + weekly quota display, filtered invalid quota placeholder rows, and added regression tests.
+- [#1083](https://github.com/steipete/CodexBar/pull/1083) — MiniMax coding-plan title propagation tests: verified real plan names flow from parser output into the shared menu model without fake fallback labels.
+- [#1089](https://github.com/steipete/CodexBar/pull/1089) — MiniMax billing-history failed-record filtering: excluded explicitly failed billing records from local token totals, charts, and model/method aggregation.
 
-- [steipete/CodexBar#970](https://github.com/steipete/CodexBar/pull/970) — MiniMax Token Plan quota support
-  - Fixed remaining-vs-used quota mapping
-  - Added 5-hour and weekly quota display for MiniMax token plans
-  - Filtered invalid quota placeholder rows
-  - Added MiniMax regression tests
+**Open PRs / In review**
+- [#1099](https://github.com/steipete/CodexBar/pull/1099) — OpenCode renewal-date visibility: preserves `renewAt` / `renew_at` as `renewsAt` and surfaces it via `NamedRateWindow(title: "Renews")`; provider-specific, no new API calls.
+- [#1100](https://github.com/steipete/CodexBar/pull/1100) — Kimi primary-only icon progress regression coverage: test-only PR using pixel inspection to prove the Kimi primary progress bar renders when `secondary` is nil. Refs [#1043](https://github.com/steipete/CodexBar/issues/1043).
 
-- [steipete/CodexBar#1083](https://github.com/steipete/CodexBar/pull/1083) — MiniMax coding-plan title propagation tests
-  - Added focused tests ensuring provider plan names flow from parser output into the shared menu model
-  - Verified missing MiniMax plan metadata does not create fake fallback labels
-  - Test-only contribution with no production behavior change
+**Proposal / design reference**
+- [#1007](https://github.com/steipete/CodexBar/issues/1007) — MiniMax billing-history token usage summary proposal: local aggregation design for today / last-30-days token usage, method/model breakdowns, and web-session-only fallback without persisting raw billing rows.
 
-- [steipete/CodexBar#1089](https://github.com/steipete/CodexBar/pull/1089) — MiniMax billing-history failed-record filtering
-  - Filtered explicitly failed MiniMax billing-history records out of local aggregation
-  - Preserved backward compatibility for older or partial billing payloads
-  - Added regression coverage for token totals, charts, and model/method breakdowns
-
-#### Open PRs / In review
-
-- [steipete/CodexBar#1099](https://github.com/steipete/CodexBar/pull/1099) — OpenCode renewal-date visibility
-  - Preserves OpenCode/OpenCodeGo `renewAt` / `renew_at` as `renewsAt`
-  - Surfaces renewal timing through `NamedRateWindow(title: "Renews")`
-  - Provider-specific; no new API calls or shared lifecycle model
-
-- [steipete/CodexBar#1100](https://github.com/steipete/CodexBar/pull/1100) — Kimi primary-only icon progress regression coverage
-  - Adds a regression test for Kimi icon progress rendering when `UsageSnapshot.primary` exists and `secondary` is nil
-  - Uses pixel inspection to prove the rendered primary Kimi bar is present
-  - Refs issue #1043
-
-#### Proposal / design reference
-
-- [steipete/CodexBar#1007](https://github.com/steipete/CodexBar/issues/1007) — MiniMax billing-history token usage summary proposal
-  - Proposed local billing-history aggregation for token usage summaries
-  - Covered today / last-30-days token usage, method/model breakdowns, and web-session-only fallback design
-  - Avoided raw billing-row persistence and sensitive account-field display
 
 ---
 
@@ -49,41 +25,16 @@ I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), with 
 
 ### CodexBar
 
-我正在持续参与 [steipete/CodexBar](https://github.com/steipete/CodexBar)，主要关注 AI coding provider 的用量、额度、账单、订阅周期可视化以及菜单栏体验。
+我持续参与 [steipete/CodexBar](https://github.com/steipete/CodexBar)，主要关注 AI coding provider 的用量、额度、账单、订阅周期可视化和菜单栏体验。
 
-#### 已合并 PR
+**已合并 PR**
+- [#970](https://github.com/steipete/CodexBar/pull/970) — MiniMax Token Plan 额度支持：修正 remaining/used 映射，增加 5 小时 + weekly 额度展示，过滤无效 quota placeholder，并补充回归测试。
+- [#1083](https://github.com/steipete/CodexBar/pull/1083) — MiniMax coding-plan title 传递测试：验证真实 plan name 能从 parser 传递到 shared menu model，且不会生成虚假 fallback label。
+- [#1089](https://github.com/steipete/CodexBar/pull/1089) — MiniMax billing-history failed-record 过滤：将明确失败的 billing 记录排除在 token totals、charts、model/method 聚合之外。
 
-- [steipete/CodexBar#970](https://github.com/steipete/CodexBar/pull/970) — MiniMax Token Plan 额度支持
-  - 修正 remaining / used 额度映射
-  - 增加 MiniMax Token Plan 的 5 小时 / weekly 额度展示
-  - 过滤无效 quota placeholder 行
-  - 增加 MiniMax 回归测试
+**审阅中的 PR**
+- [#1099](https://github.com/steipete/CodexBar/pull/1099) — OpenCode renewal date 可视化：保留 `renewAt` / `renew_at` 为 `renewsAt`，并通过 `NamedRateWindow(title: "Renews")` 展示；provider-specific，不新增 API 调用。
+- [#1100](https://github.com/steipete/CodexBar/pull/1100) — Kimi primary-only icon progress 回归测试：纯测试 PR，使用 pixel inspection 证明只有 `primary`、没有 `secondary` 时 Kimi 主进度条仍会渲染。对应 [#1043](https://github.com/steipete/CodexBar/issues/1043)。
 
-- [steipete/CodexBar#1083](https://github.com/steipete/CodexBar/pull/1083) — MiniMax coding-plan title 传递测试
-  - 增加测试，确保 provider 返回的真实 plan name 能从 parser 传递到 shared menu model
-  - 验证缺失 plan metadata 时不会生成虚假的 fallback label
-  - 纯测试型贡献，不改变生产逻辑
-
-- [steipete/CodexBar#1089](https://github.com/steipete/CodexBar/pull/1089) — MiniMax billing-history failed records 过滤
-  - 将明确失败的 MiniMax billing-history 记录排除在本地聚合之外
-  - 保留对旧版或部分 billing payload 的兼容性
-  - 增加 token totals、charts、model/method breakdown 的回归覆盖
-
-#### 审阅中的 PR
-
-- [steipete/CodexBar#1099](https://github.com/steipete/CodexBar/pull/1099) — OpenCode renewal date 可视化
-  - 保留 OpenCode/OpenCodeGo 的 `renewAt` / `renew_at` 字段为 `renewsAt`
-  - 通过 `NamedRateWindow(title: "Renews")` 展示续费/到期时间
-  - provider-specific，不新增 API 调用，不引入共享 subscription lifecycle model
-
-- [steipete/CodexBar#1100](https://github.com/steipete/CodexBar/pull/1100) — Kimi primary-only icon progress 回归测试
-  - 增加 Kimi 在只有 `UsageSnapshot.primary`、没有 `secondary` 时仍能渲染菜单栏进度条的测试
-  - 使用 pixel inspection 证明 primary Kimi bar 实际被渲染
-  - 对应 issue #1043
-
-#### 提案 / 设计参考
-
-- [steipete/CodexBar#1007](https://github.com/steipete/CodexBar/issues/1007) — MiniMax billing-history token usage summary 提案
-  - 提出本地 billing-history 聚合，用于 token usage summary
-  - 覆盖今日 / 近 30 天 token 用量、method/model breakdown，以及 web-session-only fallback 设计
-  - 不持久化原始账单行，不展示敏感账号字段
+**提案 / 设计参考**
+- [#1007](https://github.com/steipete/CodexBar/issues/1007) — MiniMax billing-history token usage summary 提案：设计本地聚合今日 / 近 30 天 token 用量、method/model breakdown 和 web-session-only fallback，且不持久化原始账单行。
