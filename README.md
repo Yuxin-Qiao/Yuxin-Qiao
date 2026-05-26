@@ -6,7 +6,7 @@ I like building small, reliable tools that make complex developer workflows easi
 
 ## Open-source focus
 
-I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), focusing on AI coding-provider usage, quota visibility, billing semantics, subscription visibility, diagnostics, and menu-bar UX.
+I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), focusing on AI coding-provider usage, quota visibility, billing semantics, diagnostics, and menu-bar UX.
 
 My recent work has focused on making provider data more understandable and reliable, especially around MiniMax usage, quota reporting, reset timing, billing records, and provider metadata.
 
@@ -14,7 +14,7 @@ My recent work has focused on making provider data more understandable and relia
 
 ### MiniMax provider support
 
-- Added and improved MiniMax token-plan quota visibility.
+- Improved MiniMax token-plan quota visibility.
 - Improved remaining / used quota mapping.
 - Added support for displaying both 5-hour and weekly quota windows.
 - Filtered invalid quota placeholder rows.
