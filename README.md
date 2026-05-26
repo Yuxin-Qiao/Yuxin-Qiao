@@ -6,58 +6,21 @@ I like building small, reliable tools that make complex developer workflows easi
 
 ## Open-source focus
 
-I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), focusing on AI coding-provider usage, quota visibility, billing semantics, diagnostics, and menu-bar UX.
+I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), a macOS menu-bar app for tracking AI coding-provider usage.
 
-My recent work has focused on making provider data more understandable and reliable, especially around MiniMax usage, quota reporting, reset timing, billing records, and provider metadata.
+My work spans provider quota visibility, billing semantics, subscription timing, diagnostics, and menu-bar reliability — with an emphasis on making multi-provider usage data understandable and testable.
 
 ## Selected contributions
 
-### MiniMax provider support
-
-- Improved MiniMax token-plan quota visibility.
-- Improved remaining / used quota mapping.
-- Added support for displaying both 5-hour and weekly quota windows.
-- Filtered invalid quota placeholder rows.
-- Added regression tests for provider usage parsing.
-
-### Billing and usage semantics
-
-- Improved billing-history handling by filtering explicitly failed billing records.
-- Helped keep local token totals, charts, and method / model aggregation aligned with valid billing data.
-- Worked on clearer separation between quota reset timing, renewal timing, and subscription-related semantics.
-
-### Provider metadata and diagnostics
-
-- Added tests for MiniMax plan-title propagation.
-- Verified real provider plan names flow through parser output into the shared menu model.
-- Worked on diagnostic and redaction-related improvements so debugging output stays useful without exposing sensitive data.
-
-### Menu-bar UX and reliability
-
-- Improved how AI coding-provider usage is represented in the menu bar.
-- Added focused tests around real-world provider edge cases.
-- Contributed small, reviewable fixes aimed at making CodexBar more trustworthy for daily use.
-
-## What I like building
-
-- AI coding workflow integrations
-- CLI and menu-bar developer tools
-- Provider usage and quota visibility
-- Privacy-aware diagnostics
-- Tests for messy real-world API and billing data
-- Small product improvements with clear user value
+- **MiniMax provider**: token-plan quota visibility, usage parsing, and regression testing.
+- **Billing semantics**: failed-record filtering, local aggregation alignment, and reset-timing separation.
+- **Provider diagnostics**: plan-title propagation testing and privacy-aware redaction.
+- **Menu-bar reliability**: edge-case regression tests and snapshot preservation under network failures.
 
 ## Tech interests
 
-- Java / backend engineering
-- Swift / macOS apps
-- TypeScript / scripting / CLI tooling
-- AI coding agents
-- Developer productivity tools
-- Open-source infrastructure
+Java / backend · Swift / macOS · TypeScript / CLI · AI coding agents · developer productivity · open-source infrastructure
 
 ## Currently
 
-Building and contributing to open-source projects around AI developer tooling.
-
-Open to software engineering opportunities.
+Building and contributing to open-source projects around AI developer tooling. Open to software engineering opportunities.
