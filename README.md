@@ -27,7 +27,14 @@ Building and contributing to open-source projects around AI developer tooling. O
 
 ---
 
-### Contribution Snake
+### 📊 GitHub Stats & Top Languages
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yuxin-Qiao&show_icons=true&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=333333" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yuxin-Qiao&layout=compact&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=333333" alt="Top Languages" />
+</div>
+
+### 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yuxin-Qiao/Yuxin-Qiao/output/github-contribution-grid-snake-dark.svg">
