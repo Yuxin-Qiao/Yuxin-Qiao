@@ -1,6 +1,6 @@
 # Yuxin Qiao
 
-Software engineer focused on **Java backend, AI applications, and developer tools**.
+Software engineer focused on **AI applications, and developer tools**.
 
 I build practical systems that make developer workflows easier to automate, debug, and trust.
 
@@ -12,7 +12,7 @@ My work covers provider usage parsing, quota visibility, billing correctness, di
 
 ## Interests
 
-Java backend · Spring Boot · AI applications · LLM APIs · coding agents · developer tools · open-source infrastructure
+AI applications · LLM APIs · coding agents · developer tools · open-source infrastructure
 
 ## Currently
 
