@@ -1,26 +1,12 @@
 # Yuxin Qiao
 
-Software engineer focused on **AI applications, and developer tools**.
-
-I build practical systems that make developer workflows easier to automate, debug, and trust.
+Software engineer interested in AI applications, coding agents, and developer tools.
 
 ## Open source
 
-I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), a macOS menu-bar app for tracking AI coding-provider usage.
+I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), a macOS menu-bar app for AI coding-provider usage tracking and diagnostics.
 
-My work covers provider usage parsing, quota visibility, billing correctness, diagnostics, privacy-aware redaction, and regression testing.
-
-## Interests
-
-AI applications · LLM APIs · coding agents · developer tools · open-source infrastructure
-
-## Currently
-
-Building projects around AI applications and developer productivity.
-
-Open to software engineering opportunities.
-
-
+Open to software engineering roles focused on AI applications, developer tools, and backend systems.
 
 ---
 
