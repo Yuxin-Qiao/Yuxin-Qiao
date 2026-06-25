@@ -13,6 +13,7 @@ I practice algorithms and data structures on [LeetCode](https://leetcode.cn/u/yu
 [![LeetCode Stats](https://leetcard.jacoblin.cool/yuxinqiao?theme=light&font=Inter&ext=heatmap&site=cn)](https://leetcode.cn/u/yuxinqiao/)
 
 Open to software engineering roles focused on AI applications, developer tools, and backend systems.
+
 ---
 
 
