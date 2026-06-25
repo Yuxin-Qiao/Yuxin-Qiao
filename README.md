@@ -8,6 +8,12 @@ I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), a mac
 
 Open to software engineering roles focused on AI applications, developer tools, and backend systems.
 
+## Problem Solving
+
+I practice algorithms and data structures on [LeetCode](https://leetcode.com/u/YOUR_LEETCODE_USERNAME/) to keep my problem-solving fundamentals sharp.
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=light&font=Inter&ext=heatmap)](https://leetcode.com/u/YOUR_LEETCODE_USERNAME/)
+
 ---
 
 
