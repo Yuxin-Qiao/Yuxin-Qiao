@@ -1,6 +1,6 @@
 # Yuxin Qiao
 
-Software engineer interested in AI applications, coding agents, and developer tools.
+Software engineer focused on AI applications, coding agents, developer tools, and backend systems.
 
 ## Open source
 
