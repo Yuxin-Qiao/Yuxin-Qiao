@@ -1,7 +1,5 @@
 # Yuxin Qiao
 
-Software engineer focused on AI applications, coding agents, developer tools, and backend systems.
+Software engineer building AI developer tools · Open source contributor
 
-## Open source
-
-I contribute to [steipete/CodexBar](https://github.com/steipete/CodexBar), a macOS menu-bar app for AI coding-provider usage tracking and diagnostics.
+Core contributions: [CodexBar](https://github.com/steipete/CodexBar) (17k★, 100+ merged). Also contributing to [Mole](https://github.com/tw93/Mole) (60k★) and [tokscale](https://github.com/junhoyeo/tokscale) (4k★).
