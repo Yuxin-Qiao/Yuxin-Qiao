@@ -4,7 +4,7 @@ Software engineer building AI developer tools · Open source contributor
 
 ### 🛠️ Selected Open Source Contributions
 
-- **[CodexBar](https://github.com/steipete/CodexBar)** (20k★) – Core contributor (100+ merged PRs)
+- **[CodexBar](https://github.com/steipete/CodexBar)** (20k★) – Core contributor
 - **[Mole](https://github.com/tw93/Mole)** (63k★) – Contributor
 - **[Homebrew Core](https://github.com/Homebrew/homebrew-core)** (16k★) – Contributor ([#296819](https://github.com/Homebrew/homebrew-core/pull/296819))
 - **[opencodex](https://github.com/lidge-jun/opencodex)** (10k★) – Contributor
